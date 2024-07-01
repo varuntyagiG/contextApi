@@ -6,7 +6,9 @@ function Comp4() {
 
   return (
     <>
-      <p>Count : ({value.count})</p>
+      <p>
+        Count : (<b>{value.count}</b>)
+      </p>
       <button
         onClick={() => {
           value.setCount(value.count + 1);
